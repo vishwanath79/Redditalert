@@ -1,3 +1,3 @@
-# Redditbot
+# Reddit Alert
 
-Dail reddit alert
+Daily reddit topics emailed to you
