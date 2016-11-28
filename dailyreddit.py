@@ -1,8 +1,7 @@
 from datetime import datetime
+
 import praw
 import pytz
-import smtplib
-from lib import redditcon
 
 subbredditnames = ['learnpython', 'Python', 'bigdata']
 fmt = "%Y-%m-%d %H:%M:%S %Z%z"
@@ -24,27 +23,17 @@ def get_posts():
                 submission.created_utc).replace(tzinfo=pytz.utc).strftime(fmt)
             allposts.append(str(posts).replace(':', ' '))
 
-    return '\n'.join(allposts).encode('utf-8')
-    # print('\n'.join(allposts))
+    print('\n'.join(allposts))
 
 
 """ Convert UTC timestamp to Local Time"""
-
 
 # now_time = datetime.utcfromtimestamp(submission.created_utc).replace(tzinfo=pytz.utc)
 # print(now_time.strftime(fmt))
 
 
-def send_mail():
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.starttls()
-    server.login(redditcon.sender, redditcon.key)
-    msg = get_posts()
-    server.sendmail(redditcon.sender, redditcon.receiver, msg)
-    server.quit()
+
 
 
 if __name__ == '__main__':
-    send_mail()
-    # check for all possible calls
-    # print(i for i in dir(r.get_subreddit('learnpython')))
+    get_posts()
