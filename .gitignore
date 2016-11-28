@@ -1,2 +1,3 @@
 lib/redditcon.py
 lib/__init__.py
+lib/__init__.py lib/redditcon.py
