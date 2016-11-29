@@ -7,7 +7,7 @@ subbredditnames = ['learnpython', 'Python', 'bigdata']
 fmt = "%Y-%m-%d %H:%M:%S %Z%z"
 user_agent = ('LearnReddit 0.1(by /u/ingvay7)')
 r = praw.Reddit(client_id='gKKxVJc9vJgvrg',
-                     client_secret='	yYSe-u68S_0zzst1_0BnwP43_K8',
+                     client_secret='    yYSe-u68S_0zzst1_0BnwP43_K8',
                     user_agent= user_agent,
                      username='ingvay7')
 n = 20
