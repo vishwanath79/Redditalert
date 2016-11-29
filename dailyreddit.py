@@ -23,7 +23,7 @@ def get_posts():
         for count, submission in enumerate(subreddit.get_top_from_day(limit=n)):
             posts = count, submission.title, ':', submission.url, submission.score, datetime.utcfromtimestamp(
                 submission.created_utc).replace(tzinfo=pytz.utc).strftime(fmt)
-            allposts.append(str(posts).replace(':', ' '))
+            allposts.append(str(posts).replace(':', '').replace("'",''))
 
     print('\n'.join(allposts))
 
