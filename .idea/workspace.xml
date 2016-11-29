@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="239962e3-48c8-4d7f-81dc-a6ea311cbe45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailyreddit.py" afterPath="$PROJECT_DIR$/dailyreddit.py" />
     </list>
     <ignored path="RedditBot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +25,13 @@
       <file leaf-file-name="dailyreddit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dailyreddit.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="285">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+=======
+            <state relative-caret-position="360">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -493,8 +497,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dailyreddit.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="285">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+=======
+        <state relative-caret-position="360">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
